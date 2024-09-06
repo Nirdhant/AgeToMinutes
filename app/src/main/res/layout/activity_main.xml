@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Age In Minutes"
+        android:textColor="@color/textColor"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/textColor"
+        android:fontFamily="sans-serif-black"
+        android:text="Select Date!"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text=""
+        android:textColor="@color/mainText"
+        android:textSize="35sp"
+        />
+    <TextView
+        android:id="@+id/dateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+
+        android:text="Date"
+        android:textColor="@color/textColor"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:id="@+id/minutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text=""
+        android:textColor="@color/mainText"
+        android:textSize="35sp"
+        />
+    <TextView
+        android:id="@+id/ageMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="In Minutes"
+        android:textColor="@color/textColor"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
